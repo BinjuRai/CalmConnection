@@ -1,0 +1,38 @@
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .footer-text p {
+    margin: 2px 0;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    color: #000;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  

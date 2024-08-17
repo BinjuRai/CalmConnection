@@ -1,0 +1,63 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #3d3d3d;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #33635b;
+  }
+  
+  .faq-section {
+    background-color: #eef4f2;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #33635b;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .faq-item img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .appointment-button {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #33635b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .appointment-button:hover {
+    background-color: #28544b;
+  }
+  

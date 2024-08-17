@@ -1,0 +1,148 @@
+.home-page {
+  font-family: 'Arial, sans-serif';
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 100vw; /* Full viewport width */
+  max-width: 100vw; /* Ensure it doesn't exceed the viewport width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin: 0; /* Ensure no extra margins affecting width */
+}
+
+.intro, .concerns, .help-section, .services, .reminders {
+  max-width: 1200px; /* Optionally limit maximum width for content */
+  margin: 0 auto; /* Center-align content horizontally */
+}
+
+.intro {
+  position: relative; /* Make the parent container relative for absolute positioning of children */
+  text-align: center; /* Center text horizontally */
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%) translateX(50px); /* Move horizontally to the right by 50px */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color */
+  padding: 20px; /* Optional: Add padding for better spacing */
+  border-radius: 10px; /* Optional: Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visual effect */
+  width: 80%; /* Optional: Set a width for the h2 */
+  max-width: 600px; /* Optional: Limit the maximum width */
+  font-size: 1.5em; /* Adjust font size if needed */
+}
+
+.appointment-button {
+  background-color: #79987f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transform: translateX(378px); /* Move button 10 cm to the right */
+}
+
+.appointment-button:hover {
+  background-color: #6b8c6f;
+}
+
+.concerns {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.concerns h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.concern-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align buttons */
+  gap: 10px;
+}
+
+.concern-buttons button {
+  background-color: #fff;
+  border: 1px solid #79987f;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.concern-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+.help-section {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.help-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.services .method-used,
+.services .we-help-with,
+.services .we-offer {
+  width: 30%;
+  padding: 20px;
+}
+
+.services h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.mental {
+  margin-left: 50%; /* Pushes the section to the right */
+  width: 80%; /* Adjust as needed */
+  height: 100%;
+
+}
+.mental img {
+  width: 50%;  /* Sets the width to 50% of its container */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-media-icons img {
+  width: 20px;
+  height: 20px;
+}
+
