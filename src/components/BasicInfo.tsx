@@ -1,5 +1,8 @@
+
 import React from 'react';
-import './App.css';  // Assuming the CSS file is named App.css
+import './BasicInfo.css';  // Assuming the CSS file is named App.css
+import {Link ,useNavigate}from "react-router-dom"
+import Booking from './Booking';
 
 const App: React.FC = () => {
   return (
@@ -33,7 +36,7 @@ const App: React.FC = () => {
         {/* Add the rest of the text content here */}
       </section>
 
-      <button className="cta-button">Book An Appointment</button>
+      <li><Link to="/booking"><button>Book An Appointment</button></Link></li>
     </div>
   );
 };

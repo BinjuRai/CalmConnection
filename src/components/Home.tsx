@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import Footer from './Footer';
+import {Link ,useNavigate}from "react-router-dom"
+
 import imageH2 from "../assets/imageH2.png";
 import imageH3 from "../assets/imageH3.png";
 import imageH4 from "../assets/imageH4.png";
@@ -12,7 +14,8 @@ const Home: React.FC = () => {
     <div className="home-page">
       <section className="intro">
         <h2>Are you looking for a way to let go of anger, anxiety or depression?</h2>
-        <button className="appointment-button">Book An Appointment</button>
+        <li><Link to="/booking"><button>Book An Appointment</button></Link></li>        
+        
       </section>
 
       <section className="concerns">

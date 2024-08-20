@@ -1,5 +1,5 @@
 import React from 'react';
-import './EuquiryForm.css';  // Assuming the CSS file is named ContactForm.css
+import './Enquiry.css';  // Assuming the CSS file is named ContactForm.css
 
 const EuquiryForm: React.FC = () => {
   return (

@@ -1,12 +1,13 @@
 import React from 'react';
-import './Login.css';
+import './LoginPage.css';
+import loginimage from "../assets/loginimage.png";
 
 const Login = () => {
   return (
     <div className="login-container">
       <div className="login-box">
         <div className="login-image">
-          <img src="/path/to/login-image.png" alt="Login Illustration" />
+          <img src={loginimage} alt="Login Illustration" />
         </div>
         <div className="login-form">
           <h2>Login</h2>

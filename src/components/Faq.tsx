@@ -1,5 +1,7 @@
 import React from 'react';
-import './FAQ.css';
+import './Faq.css';
+import {Link ,useNavigate}from "react-router-dom"
+
 
 const FAQ = () => {
   return (
@@ -63,7 +65,8 @@ const FAQ = () => {
         </div>
       </div>
 
-      <button className="appointment-button">Book An Appointment</button>
+      {/* <button className="appointment-button">Book An Appointment</button> */}
+      <li><Link to="/booking"><button>Book An Appointment</button></Link></li>
     </div>
   );
 };

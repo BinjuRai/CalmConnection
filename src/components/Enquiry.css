@@ -13,7 +13,16 @@ body {
     align-items: center;
     height: 100vh;
     background: #f8f9f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1500px;
+    background-image: url('../assets/enquirybg.png');
+    background-size: cover;
+    background-position: center;
   }
+  
   
   .contact-form {
     background-color: #7d9481;

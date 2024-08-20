@@ -1,5 +1,6 @@
 import React from 'react';
-import './Register.css';
+import './RegistrationPage.css';
+import registrationImg from "../assets/RegistrationImg.png";
 
 const Register = () => {
   return (
@@ -27,7 +28,7 @@ const Register = () => {
           </form>
         </div>
         <div className="register-image">
-          <img src="/path/to/register-image.png" alt="Registration Illustration" />
+          <img src={registrationImg} alt="Registration Illustration" />
         </div>
       </div>
     </div>
